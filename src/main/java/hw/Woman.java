@@ -9,4 +9,13 @@ public class Woman extends Person{
     public boolean isRetired() {
         return getAge() >= 60;
     }
+    public void deRegisterPartnership(boolean toMaiden) {
+        if (partner != null) {
+            if(toMaiden){
+                lastName = maiden;
+            }
+            partner.partner=null;
+            partner = null;
+        }
+    }
 }

@@ -1,0 +1,8 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Use tests automation">
+    <test name="All_tests">
+        <classes>
+            <class name="PersonTest.ManGettersSettersTest"/>
+        </classes>
+    </test>
+</suite>
