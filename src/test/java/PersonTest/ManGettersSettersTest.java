@@ -5,6 +5,7 @@ import org.testng.Assert;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
+import org.testng.asserts.SoftAssert;
 
 public class ManGettersSettersTest {
     private Man testMan;
@@ -18,9 +19,11 @@ public class ManGettersSettersTest {
         testMan.setLastName("TestSurname");
         testMan.setAge(32);
 
-        Assert.assertEquals(testMan.getAge(), "TestName","Hey, how did you call me");
-        Assert.assertEquals(testMan.getLastName(), "TestSurname");
-        Assert.assertEquals(testMan.getAge(), "TestName");
+        SoftAssert softAssert = new SoftAssert();
+        softAssert.assertEquals(testMan.getFirstName(), "TestName","Hey, how did you call me");
+        softAssert.assertEquals(testMan.getLastName(), "TestSurname");
+        softAssert.assertEquals(testMan.getAge(), 32);
+        softAssert.assertAll();
 
 
     }

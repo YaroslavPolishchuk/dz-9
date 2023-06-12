@@ -24,19 +24,16 @@ public class WomanTest {
         Assert.assertEquals(woman.getPartner(),man);
         Assert.assertEquals(woman.getLastName(),man.getLastName());
     }
-    @Test(dependsOnMethods = "testRegisterPartnership")
+    @Test
     public void testDeRegisterPartnership(){
         boolean toMaiden=false;
         woman.deRegisterPartnership(toMaiden);
         Assert.assertNull(woman.getPartner());
-        if(!toMaiden)
-            Assert.assertEquals(woman.getLastName(),man.getLastName());
-        else
-            Assert.assertEquals(woman.getLastName(),woman.getMaiden());
+        Assert.assertEquals(woman.getLastName(),man.getLastName());
     }
     @Test
     public void testIsRetired(){
-        Assert.assertTrue(!woman.isRetired());
+        Assert.assertFalse(woman.isRetired());
         Assert.assertTrue(woman2.isRetired());
     }
 }

@@ -5,18 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6685bff4-a4b0-479a-b399-99fd04696e0d" name="Changes" comment="tests">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/PersonTest/ManGettersSettersTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/PersonTest/ManTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/PersonTest/WomanTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/All.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/Short.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hw/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hw/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/hw/Man.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hw/Man.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hw/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hw/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hw/Woman.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hw/Woman.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/PersonTest/ManGettersSettersTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PersonTest/ManGettersSettersTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/PersonTest/ManTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PersonTest/ManTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/PersonTest/WomanTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PersonTest/WomanTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,7 +68,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "TestNG",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.TestNG": "",
-    "last_opened_file_path": "C:/Users/Yaroslav/Documents/Code practice/robot_dreams/Java/dz-9/src/test/resources",
+    "last_opened_file_path": "C:/Users/Yaroslav/Documents/Code practice/robot_dreams/Java/dz-9/pom.xml",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.37011495"
@@ -204,7 +197,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683645830517</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="tests">
+      <created>1686051755195</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1686051755195</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -228,7 +228,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/PersonTest/WomanTest.java</url>
-          <line>32</line>
+          <line>30</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>

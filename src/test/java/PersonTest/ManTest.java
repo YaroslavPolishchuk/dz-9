@@ -4,6 +4,7 @@ import hw.Man;
 import hw.Woman;
 import org.testng.Assert;
 import org.testng.annotations.BeforeClass;
+import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
@@ -12,7 +13,7 @@ public class ManTest {
     Man man;
     Man man2;
     Woman woman;
-    @BeforeClass
+    @BeforeMethod
     public void init(){
         man = new Man("Test1", "Last1", 30);
         man2=new Man("Test2", "Last2", 68);
@@ -25,12 +26,13 @@ public class ManTest {
     }
     @Test
     public void testDeRegisterPartnership(){
+        man.registerPartnership(woman);
         man.deRegisterPartnership();
         Assert.assertNull(man.getPartner());
     }
     @Test
     public void testIsRetired(){
         Assert.assertTrue(man2.isRetired());
-        Assert.assertTrue(!man.isRetired());
+        Assert.assertFalse(man.isRetired());
     }
 }
