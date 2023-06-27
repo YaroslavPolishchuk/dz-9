@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Use tests automation">
+    <parameter name="firstName" value="TestName"></parameter>
+    <parameter name="lastName" value="TestSurname"></parameter>
+    <parameter name="age" value="32"></parameter>
+    <test name="All_tests">
+        <classes>
+            <class name="PersonTest.ManGettersSettersTest"/>
+        </classes>
+    </test>
+</suite>

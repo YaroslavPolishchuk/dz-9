@@ -7,10 +7,37 @@ public class Person {
     Person partner;
     String maiden;
 
+    public String getMaiden() {
+        return maiden;
+    }
+
+    public Person() {
+    }
+
     public Person(String firstName, String lastName, int age) {
         this.firstName = firstName;
         this.lastName = lastName;
         this.age = age;
+    }
+
+    public Person getPartner() {
+        return partner;
+    }
+
+    public void setPartner(Person partner) {
+        this.partner = partner;
+    }
+
+    public void setFirstName(String firstName) {
+        this.firstName = firstName;
+    }
+
+    public void setLastName(String lastName) {
+        this.lastName = lastName;
+    }
+
+    public String getFirstName() {
+        return firstName;
     }
 
     public String getLastName() {
@@ -33,12 +60,14 @@ public class Person {
         maiden = lastName;
         lastName = partner.lastName;
         this.partner = partner;
+        partner.partner=this;
     }
 
-    public void deRegisterPartnersip() {
-        if (!maiden.isEmpty())
-            lastName = maiden;
-        partner = null;
+    public void deRegisterPartnership() {
+        if (partner != null) {
+            partner.partner=null;
+            partner = null;
+        }
     }
     public void getPartnerInfo(){
         if(partner!=null)

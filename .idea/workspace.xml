@@ -4,12 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6685bff4-a4b0-479a-b399-99fd04696e0d" name="Changes" comment="start">
-      <change afterPath="$PROJECT_DIR$/src/main/java/hw/Man.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/hw/Woman.java" afterDir="false" />
+    <list default="true" id="6685bff4-a4b0-479a-b399-99fd04696e0d" name="Changes" comment="tests">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hw/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hw/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hw/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hw/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hw/Man.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hw/Man.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/PersonTest/ManGettersSettersTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PersonTest/ManGettersSettersTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/PersonTest/ManTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PersonTest/ManTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/PersonTest/WomanTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PersonTest/WomanTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +19,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="TestNG Test Class" />
         <option value="Class" />
       </list>
     </option>
@@ -30,6 +31,19 @@
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="59a53f38-b7f2-4301-ae9a-92932997d12a" />
+        <option name="url" value="https://github.com/YaroslavPolishchuk/dz-9.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -51,26 +65,112 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true"
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "TestNG",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.TestNG": "",
+    "last_opened_file_path": "C:/Users/Yaroslav/Documents/Code practice/robot_dreams/Java/dz-9/pom.xml",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.37011495"
   }
 }]]></component>
-  <component name="RunManager">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="hw.Main" />
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Yaroslav\Documents\Code practice\robot_dreams\Java\dz-9\src\test\resources" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="PersonTest" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG.C:/Users/Yaroslav/Documents/Code practice/robot_dreams/Java/dz-9/src/test/resources/regression.xml">
+    <configuration name="C:/Users/Yaroslav/Documents/Code practice/robot_dreams/Java/dz-9/src/test/resources/regression.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="dz-9" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/resources/regression.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ManGettersSettersTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="dz-9" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="hw.*" />
+          <option name="PATTERN" value="PersonTest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="PersonTest" />
+      <option name="MAIN_CLASS_NAME" value="PersonTest.ManGettersSettersTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PersonTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="dz-9" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="PersonTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="PersonTest" />
+      <option name="TEST_OBJECT" value="PACKAGE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WomanTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="dz-9" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="PersonTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="PersonTest" />
+      <option name="MAIN_CLASS_NAME" value="PersonTest.WomanTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WomanTest.testDeRegisterPartnership" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="dz-9" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="PersonTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="PersonTest" />
+      <option name="MAIN_CLASS_NAME" value="PersonTest.WomanTest" />
+      <option name="METHOD_NAME" value="testDeRegisterPartnership" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
+        <item itemvalue="TestNG.C:/Users/Yaroslav/Documents/Code practice/robot_dreams/Java/dz-9/src/test/resources/regression.xml" />
+        <item itemvalue="TestNG.PersonTest" />
+        <item itemvalue="TestNG.ManGettersSettersTest" />
+        <item itemvalue="TestNG.WomanTest" />
+        <item itemvalue="TestNG.WomanTest.testDeRegisterPartnership" />
       </list>
     </recent_temporary>
   </component>
@@ -90,20 +190,46 @@
       <option name="project" value="LOCAL" />
       <updated>1683643316504</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="start">
+      <created>1683645830517</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1683645830517</updated>
+    </task>
+    <task id="LOCAL-00003" summary="tests">
+      <created>1686051755195</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1686051755195</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="start" />
-    <option name="LAST_COMMIT_MESSAGE" value="start" />
+    <MESSAGE value="tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="tests" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/hw/Main.java</url>
-          <line>39</line>
-          <option name="timeStamp" value="1" />
+          <url>file://$PROJECT_DIR$/src/test/java/PersonTest/WomanTest.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
