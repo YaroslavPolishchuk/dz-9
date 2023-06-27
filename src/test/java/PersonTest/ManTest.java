@@ -1,23 +1,37 @@
 package PersonTest;
 
+import dataproviders.TDataProvider;
 import hw.Man;
+import hw.Person;
 import hw.Woman;
+import models.TestPersonModel;
 import org.testng.Assert;
-import org.testng.annotations.BeforeClass;
-import org.testng.annotations.BeforeMethod;
-import org.testng.annotations.BeforeTest;
-import org.testng.annotations.Test;
+import org.testng.annotations.*;
+
+import java.util.ArrayList;
+import java.util.List;
 
 @Test(priority = 5)
 public class ManTest {
     Man man;
     Man man2;
     Woman woman;
-    @BeforeMethod
-    public void init(){
-        man = new Man("Test1", "Last1", 30);
-        man2=new Man("Test2", "Last2", 68);
-        woman = new Woman("Test2", "Last2", 35);
+
+
+    @Test(dataProvider = "man",dataProviderClass = TDataProvider.class,priority = 0)
+    public void init(List<TestPersonModel> testData){
+        man = new Man();
+        man2=new Man();
+        woman = new Woman();
+        List<Person> listTmp=new ArrayList<>();
+        listTmp.add(man);
+        listTmp.add(man2);
+        listTmp.add(woman);
+        for (int i = 0; i < testData.size(); i++) {
+            listTmp.get(i).setFirstName(testData.get(i).getFirstName());
+            listTmp.get(i).setLastName(testData.get(i).getLastName());
+            listTmp.get(i).setAge(testData.get(i).getAge());
+        }
     }
     @Test
     public void testRegisterPartnership(){
@@ -35,4 +49,6 @@ public class ManTest {
         Assert.assertTrue(man2.isRetired());
         Assert.assertFalse(man.isRetired());
     }
+
+
 }
